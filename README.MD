@@ -7,36 +7,35 @@ I realise the code is terrible in some places as it was my very first try at cod
 
 The following instructions explain how to setup a Windows 95 Virtual Machine in VMware Workstation Player 17 and open the Visual Basic 6 project. If you want to take the less nostalgic route down memory lane it is still possible to successfully install Visual Basic 6 under modern versions of Windows and open the project from there.
 
-Download VMWare17 [here](https://drive.google.com/file/d/1GVdLzjO5dc3hCbM-NaRlvGvfGBRGX7-3/view?usp=sharing)
+Download and install VMWare17 from [here](https://drive.google.com/file/d/1GVdLzjO5dc3hCbM-NaRlvGvfGBRGX7-3/view?usp=sharing)
 
 Install Windows 95 in VMware Player 
 ===================================
 
-1. Download and install VMware Player from https://www.vmware.com/uk/products/workstation-player.html
-2. Create a New Virtual Machine
-3. Select: "I will install the operating system later"
-4. Name the virtual machine: Windows 95
-5. Allocate the maximum disk size as 2GB
-6. Select: "Store fdiskvirtual disk as a single file"
-7. Download Dos6.21.img from https://www.allbootdisks.com/download/dos.html
-8. Select: "Customize Hardware..."
-9. Click the Add... button and select "Floppy Drive"
-10. Select "Use floppy image file:" and browse to the Dos6.21.img file
-11. Play the virtual machine
-12. Enter the command: fdisk at prompt and select 1, 1, Y
-13. Enter the command: format c:
-14. Download Win95 OSR2 ISO from https://winworldpc.com/product/windows-95/osr-2
-15. From the main menu select Player -> Removable Devices -> CD / DVD (IDE) 
-16. In the settings dialog select "Use ISO image file:" and browse to the windows95b.iso file
-17. Create a new folder in the c:\ drive using the command: mkdir c:\win95
-18. Copy the setup files to the c:\ drive using the command: xcopy r:\ c:\win95 /s /e
-19. Enter the command: c:\win95\setup.exe /IS
-20. Search for an OEM CD-Key online. Google is your friend :wink:
-21. Ignore the options to install the Network Adapter and Sound Card when prompted
-22. From the main menu select Player -> Removable Devices -> Floppy -> Settings and select "Use physical drive:"
-23. When Windows has finished installing click the prompt at the bottom of the screen to install VMware Tools
-24. Install the SVGA drive manually by right clicking desktop -> Properties -> Settings tab -> Advanced Properties -> Change... -> Have Disk... and enter the path "C:\Program Files\VMware\VMware Tools\Drivers\video\" then browse for the file vmx_svga.drv
-25. In Display Settings set your desired monitor resolution
+1. Create a New Virtual Machine
+2. Select: "I will install the operating system later"
+3. Name the virtual machine: Windows 95
+4. Allocate the maximum disk size as 2GB
+5. Select: "Store fdiskvirtual disk as a single file"
+6. Download Dos6.21.img from https://www.allbootdisks.com/download/dos.html
+7. Select: "Customize Hardware..."
+8. Click the Add... button and select "Floppy Drive"
+9. Select "Use floppy image file:" and browse to the Dos6.21.img file
+10. Play the virtual machine
+11. Enter the command: fdisk at prompt and select 1, 1, Y
+12. Enter the command: format c:
+13. Download Win95 OSR2 ISO from https://winworldpc.com/product/windows-95/osr-2
+14. From the main menu select Player -> Removable Devices -> CD / DVD (IDE) 
+15. In the settings dialog select "Use ISO image file:" and browse to the windows95b.iso file
+16. Create a new folder in the c:\ drive using the command: mkdir c:\win95
+17. Copy the setup files to the c:\ drive using the command: xcopy r:\ c:\win95 /s /e
+18. Enter the command: c:\win95\setup.exe /IS
+19. Search for an OEM CD-Key online. Google is your friend :wink:
+20. Ignore the options to install the Network Adapter and Sound Card when prompted
+21. From the main menu select Player -> Removable Devices -> Floppy -> Settings and select "Use physical drive:"
+22. When Windows has finished installing click the prompt at the bottom of the screen to install VMware Tools
+23. Install the SVGA drive manually by right clicking desktop -> Properties -> Settings tab -> Advanced Properties -> Change... -> Have Disk... and enter the path "C:\Program Files\VMware\VMware Tools\Drivers\video\" then browse for the file vmx_svga.drv
+24. In Display Settings set your desired monitor resolution
 
 Install Visual Studio 6.0
 =========================

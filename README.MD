@@ -1,11 +1,13 @@
-Nokia 5110 Simulator / Win95 OSR2 VMware Player Instructions
-============================================================
+Nokia 5110 Simulator / Win95 OSR2 VMware 17 Player Instructions
+===============================================================
 
 This project is one of my first ever attempts at computer programming in Visual Basic 6 when I was about 16 years old. It accurately simulates the main GUI of a Nokia 5110 phone in a Windows environment. I never finished the project but it would have been interesting to get the Snake minigame :snake: running if anyone wants to continue work on it.
 
 I realise the code is terrible in some places as it was my very first try at coding and it is very verbose. At the time I had no formal education or training as they didn't teach programming at school and I still didn't understand a lot of the fundamental concepts. Sorry :unamused:
 
 The following instructions explain how to setup a Windows 95 Virtual Machine in VMware Workstation Player 17 and open the Visual Basic 6 project. If you want to take the less nostalgic route down memory lane it is still possible to successfully install Visual Basic 6 under modern versions of Windows and open the project from there.
+
+Download VMWare17 [here](https://drive.google.com/file/d/1GVdLzjO5dc3hCbM-NaRlvGvfGBRGX7-3/view?usp=sharing)
 
 Install Windows 95 in VMware Player 
 ===================================

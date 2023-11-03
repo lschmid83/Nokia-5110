@@ -140,7 +140,7 @@ Copy the source code to the host machine using a USB drive:
 Note
 ====
 
-Unfortunately modern browsers and Windows Defender flag some Visual Basic 6 executables as potential threats so to download the release you will need to use the command line:
+Unfortunately modern browsers flag some Visual Basic 6 executables as potential threats so you may need to use the the command line to download the release.
 
 ```
 gh release download -R https://github.com/lschmid83/Nokia-5110 -A zip -O "c:\release\Nokia 5110.zip"

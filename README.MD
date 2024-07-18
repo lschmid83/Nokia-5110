@@ -7,8 +7,8 @@ I realise the code is terrible in some places as it was my very first try at cod
 
 Here are some screenshots of the application running under Windows 10:
 
-<img align='left' src='https://drive.google.com/uc?id=1InlidU320R4HqGr7xWkqNzm6TXMjw_XG' width='240'>
-<img src='https://drive.google.com/uc?id=1EBx-D-8oHY_4880J2x9It01O8R4n38L0' width='240'>
+<img align='left' src='https://drive.google.com/uc?id=1-suQLKm_RzdjXGrRZCbcIYSBELvVKFzJ' width='240'>
+<img src='https://drive.google.com/uc?id=12QAD4NKFwOavfREWU7x5gHXg-VLHute9' width='240'>
 
 The following instructions explain how to setup a Windows 95 Virtual Machine in VMware Workstation Player 17 and open the Visual Basic 6 project. If you want to take the less nostalgic route down memory lane it is still possible to successfully install Visual Basic 6 under modern versions of Windows and open the project from there.
 
